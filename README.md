@@ -5,11 +5,11 @@ https://deep.chulgil.me/hangugeo-bulyongeo-riseuteu/
 
 사용법
 
-'''
+
 import kr_stopwords
 
 sentence = ["i", "eat", "apple"]
 for word in sentence:
   if word in kr_stopwords.wordlist:
     # reomve word process
-'''
+
